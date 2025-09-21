@@ -38,15 +38,14 @@ python expense_tracker.py
 👉 Example UI:<img width="519" height="491" alt="image" src="https://github.com/user-attachments/assets/bf588766-f384-45a0-9849-bae235df387b" />
 
 
-<img width="895" height="418" alt="image" src="https://github.com/user-attachments/assets/92ffad75-720a-4077-bfc1-6955d50e0366" />
+<img width="595" height="418" alt="image" src="https://github.com/user-attachments/assets/92ffad75-720a-4077-bfc1-6955d50e0366" />
 
 
-👉 Example Graph:
-<img width="643" height="516" alt="image" src="https://github.com/user-attachments/assets/69d7036d-2e55-427f-88f7-8b83afe4277e" />
+👉 Example Graph: <img width="643" height="516" alt="image" src="https://github.com/user-attachments/assets/69d7036d-2e55-427f-88f7-8b83afe4277e" />
 
 
-👉 Example excel storage:
-<img width="806" height="482" alt="image" src="https://github.com/user-attachments/assets/af2d8a7f-a61b-4492-a179-b1df3c3530d2" />
+
+👉 Example excel storage:<img width="506" height="482" alt="image" src="https://github.com/user-attachments/assets/af2d8a7f-a61b-4492-a179-b1df3c3530d2" />
 
 
 📂 Project Structure
