@@ -35,7 +35,10 @@ python expense_tracker.py
 
 🖼️ Screenshots
 
-👉 Example UI:<img width="519" height="320" alt="image" src="https://github.com/user-attachments/assets/bf588766-f384-45a0-9849-bae235df387b" />
+👉 Example UI:
+
+
+<img width="519" height="320" alt="image" src="https://github.com/user-attachments/assets/bf588766-f384-45a0-9849-bae235df387b" />
 
 
 <img width="595" height="290" alt="image" src="https://github.com/user-attachments/assets/92ffad75-720a-4077-bfc1-6955d50e0366" />
@@ -58,7 +61,7 @@ python expense_tracker.py
 👉 Example excel storage: 
 
 
-<img width="506" height="252" alt="image" src="https://github.com/user-attachments/assets/af2d8a7f-a61b-4492-a179-b1df3c3530d2" />
+<img width="706" height="252" alt="image" src="https://github.com/user-attachments/assets/af2d8a7f-a61b-4492-a179-b1df3c3530d2" />
 
 
 📂 Project Structure
