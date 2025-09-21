@@ -3,6 +3,7 @@ from tkinter import messagebox
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+from datetime import datetime
 
 # File name
 FILE_NAME = "expenses.csv"
@@ -14,7 +15,7 @@ CATEGORIES = ["Food", "Travel", "Bills", "Shopping", "Others"]
 if os.path.exists(FILE_NAME):
     df = pd.read_csv(FILE_NAME)
 else:
-    df = pd.DataFrame(columns=["Category", "Amount"])
+    df = pd.DataFrame(columns=["DateTime", "Category", "Amount"])
     df.to_csv(FILE_NAME, index=False)
 
 # Function to add expense
@@ -25,12 +26,15 @@ def add_expense():
     if not amount.isdigit():
         messagebox.showerror("Error", "Please enter a valid number!")
         return
-    
-    new_data = pd.DataFrame([[category, int(amount)]], columns=["Category", "Amount"])
+
+    # Current Date & Time in 12-hour format
+    now = datetime.now().strftime("%Y-%m-%d %I:%M:%S %p")
+
+    new_data = pd.DataFrame([[now, category, int(amount)]], columns=["DateTime", "Category", "Amount"])
     df_updated = pd.concat([pd.read_csv(FILE_NAME), new_data], ignore_index=True)
     df_updated.to_csv(FILE_NAME, index=False)
     
-    messagebox.showinfo("Success", f"Added {amount} in {category}!")
+    messagebox.showinfo("Success", f"Added {amount} in {category} on {now}!")
     amount_entry.delete(0, tk.END)
 
 # Function to show graph
@@ -57,7 +61,7 @@ def show_graph():
     for i, val in enumerate(grouped):
         ax.text(i, val + 5, str(val), ha="center", fontsize=10, color="black")
 
-    # Display total clearly at the top of graph
+    # Display total clearly at the bottom
     plt.figtext(0.5, 0.01, f"💰 Total Expenses = {total}", ha="center", fontsize=12, color="red", weight="bold")
 
     plt.tight_layout()
@@ -83,4 +87,4 @@ amount_entry.pack()
 tk.Button(root, text="Add Expense", command=add_expense).pack(pady=10)
 tk.Button(root, text="Show Graph", command=show_graph).pack(pady=5)
 
-root.mainloop() 
+root.mainloop()
