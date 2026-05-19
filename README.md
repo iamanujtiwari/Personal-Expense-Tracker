@@ -1,9 +1,13 @@
-📊 Personal Expense Tracker (Python + Tkinter)
+---
+## 📊 Personal Expense Tracker (Python + Tkinter)
 
 A simple Personal Expense Tracker built with Python, Tkinter, Pandas, and Matplotlib.
 It helps you record daily expenses in categories, saves them in a CSV file, and auto-generates graphs.
+---
 
-✨ Features
+---
+
+## ✨ Features
 
 🗂️ Categories: Food, Travel, Bills, Shopping, Others
 
@@ -15,7 +19,11 @@ It helps you record daily expenses in categories, saves them in a CSV file, and 
 
 💰 Total Expenses displayed at the bottom of the graph
 
-🛠️ Tech Stack
+---
+
+---
+
+## 🛠️ Tech Stack
 
 Python 3.x
 
@@ -23,7 +31,9 @@ Tkinter → UI Framework
 
 Pandas → Data handling
 
-Matplotlib → Graphs
+---
+
+
 ---
 ## 💻 Install required libraries
 ```
@@ -31,11 +41,14 @@ pip install pandas matplotlib
 ```
 ---
 
-Run the program
+---
+## 🔊Run the program
 
 python expense_tracker.py
 
-🖼️ Screenshots
+---
+
+## 🖼️ Screenshots
 
 👉 Example UI:
 
