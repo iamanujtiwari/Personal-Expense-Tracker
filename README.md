@@ -24,10 +24,12 @@ Tkinter → UI Framework
 Pandas → Data handling
 
 Matplotlib → Graphs
-
-💻 Install required libraries
-
+---
+## 💻 Install required libraries
+```
 pip install pandas matplotlib
+```
+---
 
 Run the program
 
