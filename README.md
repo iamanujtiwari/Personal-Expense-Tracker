@@ -19,7 +19,6 @@ It helps you record daily expenses in categories, saves them in a CSV file, and 
 
 💰 Total Expenses displayed at the bottom of the graph
 
----
 
 ---
 
@@ -32,15 +31,10 @@ Tkinter → UI Framework
 Pandas → Data handling
 
 ---
-
-
----
 ## 💻 Install required libraries
 ```
 pip install pandas matplotlib
 ```
----
-
 ---
 ## 🔊Run the program
 
@@ -50,7 +44,7 @@ python expense_tracker.py
 
 ## 🖼️ Screenshots
 
-👉 Example UI:
+## 👉 Example UI:
 
 
 <img width="519" height="320" alt="image" src="https://github.com/user-attachments/assets/bf588766-f384-45a0-9849-bae235df387b" />
@@ -63,7 +57,7 @@ python expense_tracker.py
 
 
 
-👉 Example Graph: 
+## 👉 Example Graph: 
 
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/69d7036d-2e55-427f-88f7-8b83afe4277e" />
 
@@ -73,17 +67,20 @@ python expense_tracker.py
 
 
 
-👉 Example excel storage: 
+## 👉 Example excel storage: 
 
 
 <img width="706" height="252" alt="image" src="https://github.com/user-attachments/assets/af2d8a7f-a61b-4492-a179-b1df3c3530d2" />
 
+---
+
 
 📂 Project Structure
-expense-tracker/
-│── expense_tracker.py   # Main Python file
-│── expenses.csv         # Auto-generated data storage
+expense-tracker/ <br>
+│── expense_tracker.py   # Main Python file<br>
+│── expenses.csv         # Auto-generated data storage<br>
 
+---
 👨‍💻 Author
 
 Developed with  by Anuj Tiwari
