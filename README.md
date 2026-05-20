@@ -77,10 +77,8 @@ python expense_tracker.py
 
 📂 Project Structure
 expense-tracker/ <br>
-│── expense_tracker.py  
-# Main Python file<br>
-│── expenses.csv        
-# Auto-generated data storage<br>
+│── expense_tracker.py  # Main Python file<br>
+│── expenses.csv        # Auto-generated data storage<br>
 
 ---
 👨‍💻 Author
